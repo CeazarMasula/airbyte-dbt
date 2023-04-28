@@ -1,0 +1,18 @@
+
+version: 2
+
+models:
+    - name: memberbetrecordnexts
+      description: "member bet record model"
+      columns:
+          - name: _id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+          - name: turnover
+            description: "turnover"
+            data_type: numeric
+            tests:
+                - not_null
+              
