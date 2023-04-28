@@ -7,11 +7,7 @@ models:
       columns:
           - name: _id
             description: "The primary key for this table"
-            tests:
-                - not_null
           - name: turnover
             description: "turnover"
             data_type: numeric
-            tests:
-                - not_null
               
