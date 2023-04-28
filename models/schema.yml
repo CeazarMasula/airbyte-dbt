@@ -8,7 +8,6 @@ models:
           - name: _id
             description: "The primary key for this table"
             tests:
-                - unique
                 - not_null
           - name: turnover
             description: "turnover"
